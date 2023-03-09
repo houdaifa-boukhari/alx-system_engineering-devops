@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod u-rwx hello
+chown -R vincent:staff ./*
