@@ -1,2 +1,4 @@
 #!/bin/bash
-find . -type f -name "*.gif" | sort -f | awk -F/ '{print $NF}' | sed 's/\.gif$//' 
+#!/bin/bash
+
+find . -type f -name "*.gif" | while read file; do echo "${file%.*}" done | sort -f echo  
