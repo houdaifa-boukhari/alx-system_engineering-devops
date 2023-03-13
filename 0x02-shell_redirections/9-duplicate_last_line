@@ -1,0 +1,3 @@
+#!/bin/bash
+# Duplicate last line of iacta file
+tail -n1 iacta >> iacta
